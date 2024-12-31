@@ -38,6 +38,8 @@ Click [demo](https://youtu.be/mvcZi3s1ik8) for the video!
 
 ## Result
 
+Click [doraemon plot](https://law-chun-man.github.io/desmos_plot/desmos.html) for the interactive plot.
+
 |Original Image|Desmos Plot|
 |:---:|:---:|
 |![doraemon](README_pictures/doraemon.png)|![doraemon plot](README_pictures/doraemon_plot.png)|
