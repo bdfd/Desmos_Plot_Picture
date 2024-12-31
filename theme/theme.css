@@ -1,0 +1,57 @@
+:root {
+    /* Light Mode Variables */
+    --button-light: black;
+    --button-icon-light: url('dark.png');
+    --plot-filter-light: invert(0);
+
+    /* Dark Mode Variables*/
+    --button-dark: white;
+    --button-icon-dark: url('light.png');
+    --plot-filter-dark: invert(1);
+
+    /* Default to Light Mode */
+    --button-color: var(--button-light);
+    --button-icon: var(--button-icon-light);
+    --plot-filter: var(--plot-filter-light);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#calculator {
+    width: 100%;
+    height: 100%;
+    filter: var(--plot-filter);
+}
+
+#theme-toggle {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-image: var(--button-icon);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#theme-toggle:hover {
+    opacity: 0.8;
+}
+
+body.dark-mode {
+    --button-color: var(--button-dark);
+    --button-icon: var(--button-icon-dark);
+    --plot-filter: var(--plot-filter-dark);
+}
+
