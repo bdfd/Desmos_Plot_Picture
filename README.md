@@ -30,7 +30,7 @@ After this, the file `desmos_api.js` will be generated. This contains all the fo
 
 ### Final tweaks
 
-If your plot contains too much, or too little details, you may need to change the value in line 13 and 14 of `desmos_plot.py`
+If your plot contains too much, or too little detail, you may need to change the value in line 13 and 14 of `desmos_plot.py`
 
 ## Demo video
 
