@@ -34,4 +34,11 @@ If your plot contains too much, or too little detail, you may need to change the
 
 ## Demo video
 
-Click [demo.mp4](demo.mp4) for the video!
+Click [demo](https://youtu.be/mvcZi3s1ik8) for the video!
+
+## Result
+
+|Original Image|Desmos Plot|
+|:---:|:---:|
+|![doraemon](README_pictures/doraemon.png)|![doraemon plot](README_pictures/doraemon_plot.png)|
+|![adele drawing](README_pictures/adele_drawing.jpg)|![adele plot](README_pictures/adele_plot.png)|
