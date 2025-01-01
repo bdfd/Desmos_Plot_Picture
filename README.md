@@ -1,4 +1,4 @@
-# Desmos Plot
+# Desmos Plot Picture
 
 ## Getting started
 
