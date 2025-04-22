@@ -21,7 +21,7 @@ for filename in os.listdir(folder_path):
 jpg = os.path.join(folder_path, "temp.jpg")
 pnm = os.path.join(folder_path, "temp.pnm")
 svg = os.path.join(folder_path, "temp.svg")
-os.system(f'magick "{jpg}" "{pnm}"')
+os.system(f'convert "{jpg}" "{pnm}"')
 os.system(f'potrace "{pnm}" -s -o "{svg}"')
 
 
